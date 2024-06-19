@@ -36,7 +36,7 @@ function NavBar() {
           <nav className="lg:flex lg:flex-row lg:items-center lg:space-x-4">
             {/* For Mobile users */}
             <div className="cursor-pointer lg:hidden" onClick={handleNavBar}>
-              <RiMenu4Fill className="size-10" />
+              <RiMenu4Fill className="icon size-10" />
             </div>
             <ul
               className={`lg:flex lg:flex-row lg:gap-4 ${
@@ -45,7 +45,9 @@ function NavBar() {
                   : "hidden"
               }`}
             >
-              <li className="flex justify-center cursor-pointer">About Us</li>
+              <li className=" flex justify-center cursor-pointer">
+                <a href=""></a>About-Us
+              </li>
               <li className="flex justify-center cursor-pointer">Products</li>
               <li className="flex justify-center items-center cursor-pointer">
                 <span>Store</span>
