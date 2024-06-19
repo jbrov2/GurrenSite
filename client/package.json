@@ -10,10 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/comfortaa": "^5.0.20",
+    "@fontsource-variable/nunito-sans": "^5.0.14",
+    "@fontsource-variable/plus-jakarta-sans": "^5.0.21",
+    "@fontsource/rubik-mono-one": "^5.0.20",
+    "@remixicon/react": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
-    "remixicon": "^4.3.0"
+    "remixicon": "^4.3.0",
+    "scrollreveal": "^4.0.9",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
