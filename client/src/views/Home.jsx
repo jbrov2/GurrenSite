@@ -2,10 +2,10 @@ import heroImg from "../img/Simon.png";
 import glasses from "../img/team_gurren_lagann_logo_vector_by_iklone_da73gb2-fullview.png";
 import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import AboutUs from "../components/AboutUs";
 import HeroSection from "../components/HeroSection";
+import NavBar from "../components/NavBar";
 import ScrollReveal from "scrollreveal";
-import NavBar from "../components/Navbar";
-
 function Home() {
   useEffect(() => {
     // Initializing ScrollReveal
@@ -33,12 +33,10 @@ function Home() {
           {/*Hero Section */}
           <HeroSection />
           {/*Categories */}
-          <hr className="mx-auto bg-white w-1/2" />
-          <section id="categories" className="p-6 my-12">
-            <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 ">
-              Categories
-            </h2>
-          </section>
+          <hr className="mx-auto bg-slate-900 w-1/2 mt-40" />
+
+          <hr className="mx-auto bg-slate-900 w-1/2 mt-40" />
+          <AboutUs />
           {/**Temp div */}
           <div className="h-[3000px]"></div>
         </main>
