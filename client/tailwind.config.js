@@ -33,8 +33,8 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#edf6f9",
-        secondary: "#ECAA27",
+        primary: "#ECAA27",
+        secondary: "#edf6f9",
         accent: "#28ff85",
         "primary-hover": "#ECAA27",
         "accent-hover": "#ECAA27",
