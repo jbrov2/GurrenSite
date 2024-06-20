@@ -75,6 +75,9 @@ button{
     color: #ECAA27; 
 }
 
+.swiper-pagination-bullet-active {
+    background-color: #28ff85 !important;
+}
   
   .swiper {
     margin-left: auto;
