@@ -6,6 +6,9 @@ function AboutUs() {
     <>
       <section className="categories mt-[80px] xl:mt-[200px] relative z-20">
         <div className="container mx-auto xl:px-0">
+          <h2 className=" h2 text-center mb-8" id="About-Us">
+            About-Us
+          </h2>
           <div className="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center xl:items-stretch gap-8 xl:gap-[74px]">
             <div className="flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
               <h2 className="h2">
