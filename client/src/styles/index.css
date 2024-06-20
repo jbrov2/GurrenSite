@@ -67,7 +67,13 @@ button{
     height: 500px; /* Adjust to your desired height */
     font-size: 18px;
   }
-  
+  .swiper-button-prev {
+    color:#ECAA27; 
+}
+
+.swiper-button-next {
+    color: #ECAA27; 
+}
 
   
   .swiper {
