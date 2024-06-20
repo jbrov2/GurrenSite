@@ -1,6 +1,5 @@
-import heroImg from "../img/Simon.png";
-import glasses from "../img/team_gurren_lagann_logo_vector_by_iklone_da73gb2-fullview.png";
-import React, { useEffect } from "react";
+
+import { useEffect } from "react";
 import Products from "../components/Products";
 import AboutUs from "../components/AboutUs";
 import HeroSection from "../components/HeroSection";
@@ -30,14 +29,15 @@ function Home() {
         <main className="max-w-[1920px] mx-auto bg-white overflow-hidden">
           {/* grid */}
           <div className="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
-          {/*Hero Section */}
           <HeroSection />
-          {/*Categories */}
-          <hr className="mx-auto bg-slate-900 w-1/2 mt-40" />
+          <hr className="mx-auto bg-slate-900 w-1/2 mt-40" id="products" />
           <Products />
-          <hr className="mx-auto bg-slate-900 w-1/2 mt-40" />
+          <hr className="mx-auto bg-slate-900 w-1/2 mt-40"id="About-Us" />
           <AboutUs />
+          <hr className="mx-auto bg-slate-900 w-1/2 mt-40" />
+          {/*Store */}
           {/**Temp div */}
+          
           <div className="h-[3000px]"></div>
         </main>
       </div>

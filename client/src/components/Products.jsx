@@ -1,8 +1,4 @@
-import React from "react";
-import Movie from "../img/gurrenMovie.jpg";
-import Mecha from "../img/mechs.jpg";
-import Shirts from "../img/Kamina Shirt.jpg";
-import pops from "../img/pops.jpg";
+
 import { RiShoppingBasket2Fill } from "@remixicon/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,7 +10,7 @@ import { Pagination, Navigation, Parallax } from "swiper/modules";
 function Products() {
   return (
     <section className="product mt-16 z-30 relative" >
-      <h2 className="h2 text-center"id="products">Products</h2>
+      <h2 className="h2 text-center">Products</h2>
       <div className="product_bg container mx-auto bg-white rounded-[70px] px-6">
         {/* Slider */}
         <div className="w-full">

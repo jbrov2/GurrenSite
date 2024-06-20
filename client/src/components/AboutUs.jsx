@@ -6,7 +6,7 @@ function AboutUs() {
     <>
       <section className="categories mt-[80px] xl:mt-[200px] relative z-20">
         <div className="container mx-auto xl:px-0">
-          <h2 className=" h2 text-center mb-8" id="About-Us">
+          <h2 className=" h2 text-center mb-8" >
             About-Us
           </h2>
           <div className="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center xl:items-stretch gap-8 xl:gap-[74px]">
