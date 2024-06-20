@@ -13,8 +13,8 @@ import { Pagination, Navigation, Parallax } from "swiper/modules";
 
 function Products() {
   return (
-    <section className="product mt-16 z-30 relative">
-      <h2 className="h2 text-center">Products</h2>
+    <section className="product mt-16 z-30 relative" >
+      <h2 className="h2 text-center"id="products">Products</h2>
       <div className="product_bg container mx-auto bg-white rounded-[70px] px-6">
         {/* Slider */}
         <div className="w-full">
@@ -40,7 +40,7 @@ function Products() {
                 {/* Text Content */}
                 <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
                   <h3 className="text-2xl mb-2">Movies</h3>
-                  <p className="text-lg flex items-center justify-center cursor-pointer">
+                  <p className="text-lg flex hover:text-[#28ff85] duration-300 items-center justify-center cursor-pointer">
                     Buy Now <RiShoppingBasket2Fill className="ml-2" />
                   </p>
                 </div>
@@ -54,7 +54,7 @@ function Products() {
                 </div>
                 <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
                   <h3 className="text-2xl mb-2">Mecha</h3>
-                  <p className="text-lg flex items-center justify-center cursor-pointer">
+                  <p className="text-lg flex items-center hover:text-[#28ff85] duration-300 justify-center cursor-pointer ">
                     Buy Now <RiShoppingBasket2Fill className="ml-2" />
                   </p>
                 </div>
@@ -68,7 +68,7 @@ function Products() {
                 </div>
                 <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
                   <h3 className="text-2xl mb-2">Shirts</h3>
-                  <p className="text-lg flex items-center justify-center cursor-pointer">
+                  <p className="text-lg hover:text-[#28ff85] duration-300 flex items-center justify-center cursor-pointer">
                     Buy Now <RiShoppingBasket2Fill className="ml-2" />
                   </p>
                 </div>
@@ -82,7 +82,7 @@ function Products() {
                 </div>
                 <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
                   <h3 className="text-2xl mb-2">Pops</h3>
-                  <p className="text-lg flex items-center justify-center cursor-pointer">
+                  <p className="text-lg hover:text-[#28ff85] duration-300 flex items-center justify-center cursor-pointer">
                     Buy Now <RiShoppingBasket2Fill className="ml-2" />
                   </p>
                 </div>
