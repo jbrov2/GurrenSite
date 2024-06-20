@@ -45,11 +45,11 @@ function NavBar() {
                   : "hidden"
               }`}
             >
-              <li className=" flex justify-center cursor-pointer">
+              <li className=" flex justify-center hover:text-[#680707] duration-300 cursor-pointer">
                 <a href="About-Us"></a>About-Us
               </li>
-              <li className="flex justify-center cursor-pointer">Products</li>
-              <li className="flex justify-center items-center cursor-pointer">
+              <li className="flex justify-center hover:text-[#680707]  duration-300 cursor-pointer">Products</li>
+              <li className="flex justify-center hover:text-[#680707] duration-300 items-center cursor-pointer">
                 <span>Store</span>
                 <RiShoppingBasket2Fill className="ml-2" />
               </li>
