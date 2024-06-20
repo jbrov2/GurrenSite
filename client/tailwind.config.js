@@ -30,6 +30,7 @@ export default {
     backgroundImage: {
       hero: "url(./src/img/Simon.png)",
       grid: "url(./src/img/grid.png)",
+      movie: "url(./src/img/gurrenMovie.jpg)",
     },
     extend: {
       colors: {
