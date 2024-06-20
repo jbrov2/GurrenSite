@@ -1,10 +1,10 @@
-
 import { useEffect } from "react";
 import Products from "../components/Products";
 import AboutUs from "../components/AboutUs";
 import HeroSection from "../components/HeroSection";
-import NavBar from '../components/Navbar'
+import NavBar from "../components/Navbar";
 import ScrollReveal from "scrollreveal";
+import Shop from "../components/Shop";
 function Home() {
   useEffect(() => {
     // Initializing ScrollReveal
@@ -32,12 +32,13 @@ function Home() {
           <HeroSection />
           <hr className="mx-auto bg-slate-900 w-1/2 mt-40" id="products" />
           <Products />
-          <hr className="mx-auto bg-slate-900 w-1/2 mt-40"id="About-Us" />
+          <hr className="mx-auto bg-slate-900 w-1/2 mt-40" id="About-Us" />
           <AboutUs />
           <hr className="mx-auto bg-slate-900 w-1/2 mt-40" />
           {/*Store */}
+          <Shop />
           {/**Temp div */}
-          
+
           <div className="h-[3000px]"></div>
         </main>
       </div>
