@@ -46,7 +46,7 @@ function NavBar() {
               }`}
             >
               <li className=" flex justify-center cursor-pointer">
-                <a href=""></a>About-Us
+                <a href="About-Us"></a>About-Us
               </li>
               <li className="flex justify-center cursor-pointer">Products</li>
               <li className="flex justify-center items-center cursor-pointer">
