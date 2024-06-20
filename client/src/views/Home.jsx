@@ -1,11 +1,10 @@
 import heroImg from "../img/Simon.png";
 import glasses from "../img/team_gurren_lagann_logo_vector_by_iklone_da73gb2-fullview.png";
 import React, { useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import Products from "../components/Products";
 import AboutUs from "../components/AboutUs";
 import HeroSection from "../components/HeroSection";
-import NavBar from "../components/NavBar";
+import NavBar from '../components/Navbar'
 import ScrollReveal from "scrollreveal";
 function Home() {
   useEffect(() => {
