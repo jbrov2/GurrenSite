@@ -1,7 +1,9 @@
 function Shop() {
   return (
     <>
-      <section></section>
+      <section className="shop  mt-[80px] xl:mt-[200px] relative z-20">
+        <div className="container mx-auto xl:px-0">40% Sale</div>
+      </section>
     </>
   );
 }
