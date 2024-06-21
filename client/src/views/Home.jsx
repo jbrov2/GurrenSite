@@ -12,13 +12,28 @@ function Home() {
     const Scroll = ScrollReveal({
       origin: "bottom",
       distance: "50px",
-      duration: 100,
-      delay: 200,
-      reset: true,
+      duration: 3000,
+      delay: 600,
+      // reset: true,
     });
 
     // To reveal specific items
-    Scroll.reveal("#reveal", { interval: 200 });
+    //hero
+    Scroll.reveal(".hero__text", { origin: "top" });
+    //products
+    Scroll.reveal(".product_bg", { origin: "bottom" });
+    Scroll.reveal(".product_title", { origin: "bottom", delay: 1000 });
+
+    //about
+    Scroll.reveal(".about_text", { origin: "left" });
+    Scroll.reveal(".about_img", { origin: "right", delay: 800 });
+    //shop
+    Scroll.reveal(".shop_container", { origin: "bottom" });
+    Scroll.reveal(".shop_text");
+    Scroll.reveal(".shop_header");
+
+    //footer
+    Scroll.reveal(".footer_item", { distance: "100px", interval: 100 });
   }, []);
 
   return (
@@ -41,7 +56,7 @@ function Home() {
           <Footer />
           {/**Temp div */}
 
-          <div className="h-[3000px]"></div>
+          {/* <div className="h-[3000px]"></div> */}
         </main>
       </div>
     </>

@@ -68,7 +68,7 @@ function AboutUs() {
       <div className="container mx-auto xl:px-0">
         <h2 className="h2 text-center mb-8">About-Us</h2>
         <div className="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center xl:items-stretch gap-8 xl:gap-[74px]">
-          <div className="flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
+          <div className=" about_text flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
             <h2 className="h2">
               We bring you inspiring and galaxy-bending designs
             </h2>
@@ -98,11 +98,13 @@ function AboutUs() {
           </div>
           <div className="order-1 xl:order-none flex-1 flex items-center max-w-[453px] mx-auto xl:max-w-none xl:mx-0">
             {isSmallScreen ? (
-              <img
-                src={aboutPic}
-                alt="about pic"
-                className="rounded-bl-[120px] rounded-tr-[120px] w-full h-full object-cover shadow-xl"
-              />
+              <div className="about_img ">
+                <img
+                  src={aboutPic}
+                  alt="about pic"
+                  className="rounded-bl-[120px] rounded-tr-[120px] w-full h-full object-cover shadow-xl"
+                />{" "}
+              </div>
             ) : (
               <motion.div
                 ref={ref}

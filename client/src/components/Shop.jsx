@@ -4,7 +4,7 @@ function Shop() {
   return (
     <>
       <section className="shop mt-[80px] xl:mt-[150px] relative z-20">
-        <h2 className="h2 text-center mb-8" id="Store">
+        <h2 className=" shop_header h2 text-center mb-8" id="Store">
           SHOP NOW
         </h2>
         <div className="shop_container container mx-auto text-center bg-[#680707] rounded-tr-[120px] rounded-bl-[120px] py-[80px] ">
