@@ -48,10 +48,15 @@ function NavBar() {
               <li className=" flex justify-center hover:text-[#680707] duration-300 cursor-pointer">
                 <a href="#About-Us">About-Us</a>
               </li>
-              <li className="flex justify-center hover:text-[#680707]  duration-300 cursor-pointer"><a href="#products">Products</a></li>
+              <li className="flex justify-center hover:text-[#680707]  duration-300 cursor-pointer">
+                <a href="#products">Products</a>
+              </li>
               <li className="flex justify-center hover:text-[#680707] duration-300 items-center cursor-pointer">
-                <span>Store</span>
-                <RiShoppingBasket2Fill className="ml-2" />
+                <a href="#Store" className="flex">
+                  {" "}
+                  <span>Store</span>
+                  <RiShoppingBasket2Fill className="ml-2 " />
+                </a>
               </li>
             </ul>
           </nav>
