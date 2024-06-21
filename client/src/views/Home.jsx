@@ -5,6 +5,7 @@ import HeroSection from "../components/HeroSection";
 import NavBar from "../components/Navbar";
 import ScrollReveal from "scrollreveal";
 import Shop from "../components/Shop";
+import Footer from "../components/footer";
 function Home() {
   useEffect(() => {
     // Initializing ScrollReveal
@@ -37,6 +38,7 @@ function Home() {
           <hr className="mx-auto bg-slate-900 w-1/2 mt-40" />
           {/*Store */}
           <Shop />
+          <Footer />
           {/**Temp div */}
 
           <div className="h-[3000px]"></div>
