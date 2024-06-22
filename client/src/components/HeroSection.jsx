@@ -1,5 +1,5 @@
 import { RiShoppingCart2Fill } from "@remixicon/react";
-import Simon from "../img/Simon.png";
+// import Simon from "../img/Simon.png";
 import Simon2 from "../img/crispy.png";
 
 function HeroSection() {
