@@ -28,12 +28,12 @@ export default {
       black: 900,
     },
     backgroundImage: {
-      hero: "url(./src/img/Simon.png)",
-      grid: "url(./src/img/grid.png)",
-      movie: "url(./src/img/gurrenMovie.jpg)",
-      mecha: "url(./src/img/mechs.jpg)",
-      shirts: "url(./src/img/Kamina Shirt.jpg)",
-      pops: "url(./src/img/pops.jpg)"
+      hero: "url(/src/img/Simon.png)",
+      grid: "url(/src/img/grid.png)",
+      movie: "url(/src/img/gurrenMovie.jpg)",
+      mecha: "url(/src/img/mechs.jpg)",
+      shirts: "url(/src/img/Kamina Shirt.jpg)",
+      pops: "url(/src/img/pops.jpg)",
     },
     extend: {
       colors: {
