@@ -21,7 +21,7 @@ function Footer() {
                 <h2>Tengen Toppa</h2>
               </a>
               <p className="mb-8 text-xl text-[#680707]">
-                The store that will remind you to `Belive in the me that
+                The store that will remind you to `Believe in the me that
                 believes in you.`
               </p>
               <ul className="flex justify-center mb-8 gap-[54px] xl:justify-start">
