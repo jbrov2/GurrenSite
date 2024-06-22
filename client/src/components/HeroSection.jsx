@@ -1,5 +1,6 @@
 import { RiShoppingCart2Fill } from "@remixicon/react";
 import Simon from "../img/Simon.png";
+import Simon2 from "../img/crispy.png";
 
 function HeroSection() {
   return (
@@ -19,7 +20,7 @@ function HeroSection() {
         </div>
       </div>
       <img
-        src={Simon}
+        src={Simon2}
         alt="Simon"
         className="absolute top-0 left-0 w-full h-full object-cover z-0 xl:rounded-bl-[290px]"
       />
